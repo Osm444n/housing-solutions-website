@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin:0; background:#f6f8ff; }
+.container { width:90%; max-width:1100px; margin:auto; }
+.site-header { display:flex; justify-content:space-between; align-items:center; padding:10px 0; }
+.logo-type { font-weight:800; }
+.hero { padding:40px 0; text-align:center; }
+.cta { display:inline-block; padding:12px 20px; background:#2563eb; color:#fff; border-radius:8px; text-decoration:none; font-weight:700; }
+.counters { display:flex; gap:20px; justify-content:center; margin:30px 0; }
+.counter { background:#fff; padding:20px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,.1); text-align:center; }
+.sticky-cta { position:fixed; left:10px; right:10px; bottom:20px; padding:15px; background:#2563eb; color:#fff; text-align:center; border-radius:50px; display:none; }
+@media (max-width: 600px) { .sticky-cta { display:block; } }
